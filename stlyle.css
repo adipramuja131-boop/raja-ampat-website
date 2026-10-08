@@ -1,0 +1,110 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+body {
+background:linear-gradient(135deg, #e0f2fe, #e0f7fa);
+min-height:100vh;
+animation:latarBiru 15s infinite alternate;
+}
+
+@keyframes latarBiru {
+from {background:linear-gradient(135deg, #e0f2fe, #e0f7fa);}
+to {background:linear-gradient(135deg, #d1f2eb, #e0f2fe);}
+}
+
+header {
+background:linear-gradient(135deg, #0277bd, #00897b);
+color:white;
+padding:2rem;
+text-align:center;
+animation:turun 1s ease-out;
+}
+
+@keyframes turun {
+from {opacity:0; transform:translateY(-30px);}
+to {opacity:1; transform:translateY(0);}
+}
+
+.judul {
+animation:naikTurun 3s infinite ease-in-out;
+}
+
+@keyframes naikTurun {
+0% {transform:translateY(0);}
+50% {transform:translateY(-8px);}
+100% {transform:translateY(0);}
+}
+
+nav {margin-top:1rem;}
+nav a {
+color:white;
+margin:0 0.7rem;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+nav a:hover {color:#b2ebf2;}
+
+main {
+max-width:900px;
+margin:2rem auto;
+padding:0 1rem;
+}
+
+.bagian {
+background:white;
+padding:2rem;
+margin-bottom:2rem;
+border-radius:16px;
+box-shadow:0 4px 15px rgba(0,137,123,0.15);
+animation:muncul 1s ease-out;
+}
+
+@keyframes muncul {
+from {opacity:0; transform:translateY(20px);}
+to {opacity:1; transform:translateY(0);}
+}
+
+.bagian h2 {
+color:#00695c;
+margin-bottom:1rem;
+border-bottom:2px solid #b2dfdb;
+padding-bottom:0.5rem;
+}
+
+ul {margin:1rem 0 0 1.8rem;}
+li {margin:0.7rem 0; line-height:1.7;}
+
+footer {
+text-align:center;
+padding:1.5rem;
+color:#666;
+font-size:0.9rem;
+}
+
+@media (max-width:600px) {
+nav a {display:block; margin:0.5rem 0;}
+.bagian {padding:1.5rem;}
+header {padding:1.5rem;}
+.gambar-atas {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px 0 20px;
+  border-radius: 8px;
+}info-card {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.info-card h3 {
+  color: #0277bd;
+  margin-top: 0;
+}

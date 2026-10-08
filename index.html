@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0"<link rel="stylesheet" href="style.css">
+<script src="script.js"></script> name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-variant": "#dae4ec", "on-tertiary": "#ffffff", "on-error-container": "#93000a", "secondary-fixed-dim": "#6bd8cb", "primary-fixed": "#c4e8fb", "inverse-surface": "#293238", "inverse-on-surface": "#e9f2fa", "tertiary-fixed-dim": "#ffb4a1", "surface-container-lowest": "#ffffff", "surface-container-low": "#ebf5fd", "surface-bright": "#f5faff", "surface": "#f5faff", "error-container": "#ffdad6", "on-background": "#141d23", "secondary": "#006a61", "on-primary-fixed-variant": "#294b5b", "on-secondary-fixed": "#00201d", "on-primary-fixed": "#001f2b", "surface-dim": "#d2dbe3", "on-secondary-container": "#006f66", "on-tertiary-fixed": "#3c0800", "surface-container": "#e6eff7", "surface-tint": "#416373", "outline": "#72787c", "outline-variant": "#c1c7cc", "surface-container-high": "#e0e9f2", "tertiary": "#320600", "primary-container": "#062e3d", "inverse-primary": "#a9ccdf", "secondary-fixed": "#89f5e7", "error": "#ba1a1a", "on-tertiary-container": "#da755b", "on-secondary": "#ffffff", "on-primary": "#ffffff", "background": "#f5faff", "surface-container-highest": "#dae4ec", "on-tertiary-fixed-variant": "#7c2e19", "on-error": "#ffffff", "on-surface-variant": "#42484b", "on-secondary-fixed-variant": "#005049", "primary": "#001823", "secondary-container": "#86f2e4", "on-surface": "#141d23", "primary-fixed-dim": "#a9ccdf", "on-primary-container": "#7496a8", "tertiary-container": "#551101", "tertiary-fixed": "#ffdbd2" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-md": "1rem", "gutter": "2rem", "gutter-mobile": "1rem", "space-xl": "3rem", "space-xs": "0.25rem", "margin-mobile": "1.25rem", "space-sm": "0.5rem", "space-lg": "1.75rem", "margin": "4rem" }, "fontFamily": { "body-sm": [ "Plus Jakarta Sans" ], "caption": [ "Plus Jakarta Sans" ], "body-xl": [ "Plus Jakarta Sans" ], "headline-md": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Playfair Display" ], "body-md": [ "Plus Jakarta Sans" ], "headline-lg": [ "Playfair Display" ], "headline-lg-mobile": [ "Playfair Display" ], "headline-xl": [ "Playfair Display" ], "display-hero": [ "Playfair Display" ], "label-lg": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "display-hero-mobile": [ "Playfair Display" ] }, "fontSize": { "body-sm": [ "14px", { "lineHeight": "22px", "fontWeight": "400" } ], "caption": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "500" } ], "body-xl": [ "18px", { "lineHeight": "30px", "fontWeight": "400" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "headline-xl-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "body-md": [ "16px", { "lineHeight": "26px", "fontWeight": "400" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "fontWeight": "500" } ], "headline-lg-mobile": [ "26px", { "lineHeight": "34px", "fontWeight": "500" } ], "headline-xl": [ "48px", { "lineHeight": "58px", "letterSpacing": "-0.015em", "fontWeight": "500" } ], "display-hero": [ "72px", { "lineHeight": "84px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" } ], "display-hero-mobile": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/75 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full max-w-[1720px] mx-auto px-margin-mobile md:px-gutter lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Raja Ampat Tourism Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wscj9EO64EJyQpBmkfUejEmDxf_RDVIOFaiBuT5Ca53_ofjAmN3jLWKwqwF2k_0muthvnADDy08RFVBy_XdevkAPw_E1AZRrw2DhZkAJJ8PDtW72VrNFww-n6IgaNK3QgptRrNtq7QMnxj4eJHyJYCWZaiV8pOpysPPNDFtFh-y9XOatSKzGA7MZdIPJkkSH8g-XjoKbTfai-3mgZw20fA6nsapF68t2XRMzYCOO2RLB9yA3oRtzj1d7E"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-semibold">Raja Ampat</span><span class="font-caption text-caption text-secondary uppercase tracking-widest">The Last Paradise</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="text-on-surface font-semibold bg-surface-container-high/60"><a class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="beranda" href="#">Beranda</a><a class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="destinasi-populer" href="#">Destinasi Populer</a><a class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="paket-wisata" href="#">Paket Wisata</a><a class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="panduan-konservasi" href="#">Panduan &amp; Konservasi</a><a class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="liveaboard" href="#">Liveaboard</a><a class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a></nav><div class="flex items-center gap-space-md shrink-0"><div class="hidden md:flex items-center bg-surface-container-low px-space-sm py-space-xs rounded-full shadow-[0_1px_4px_rgba(6,46,61,0.04)]"><button class="font-label-md text-label-md text-on-surface font-semibold px-space-xs py-space-xs rounded-full bg-surface-container-lowest shadow-sm" type="button">IDR</button><button class="font-label-md text-label-md text-on-surface-variant px-space-xs py-space-xs rounded-full hover:text-on-surface" type="button">USD</button><span class="text-outline-variant mx-space-xs font-caption text-caption">|</span><button class="font-label-md text-label-md text-on-surface font-semibold px-space-xs py-space-xs" type="button">ID</button><button class="font-label-md text-label-md text-on-surface-variant px-space-xs py-space-xs hover:text-on-surface" type="button">EN</button></div><a class="hidden sm:inline-flex items-center justify-center bg-primary-container text-on-primary px-space-lg py-space-sm rounded-lg font-label-lg text-label-lg transition-all duration-300 hover:bg-secondary hover:text-on-secondary shadow-[0_4px_20px_-2px_rgba(6,46,61,0.12)]" data-path="rencanakan-ekspedisi" href="#">Rencanakan Ekspedisi</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- ==================== BAGIAN 1 — HERO SECTION ==================== -->
+<section class="relative w-full -mt-20 overflow-hidden bg-primary-container min-h-[920px] flex items-center justify-center">
+<!-- Background Image with Scrim and Subtle Live Movement -->
+<div class="absolute inset-0 w-full h-full bg-cover bg-center transition-transform duration-1000 scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAb08p7seWDZ_Vul5PUIjeTiykneJSXWJouuX3KwAibEJ-daaCmvl3EX0XvvlzhdKR4DYTcMXwQxC0kDuAB_UnErnFFCNdt8ekrfpC7alf70CAShuRg3GraDMxZiosPJBXO7AsSIngSEDPyYjfJWq3dCV7ubLVol9px78C2IH7yIAbUhw5AOT6GlP6mUhUHqqQWI_BCHotjCwz2hG5ApGAdjCzMBF-1mEF3qLbNDxN3wyZWxLcKSwo2');"></div>
+<!-- Living Water Gradient Scrim & Depth Overlays -->
+<div class="absolute inset-0 bg-gradient-to-b from-primary/80 via-primary/45 to-primary/90 mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-primary/30"></div>
+<!-- Animated Gentle Ambient Ripple Canvas (Subtle SVG Overlay) -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none opacity-20" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialgradient cx="50%" cy="60%" id="oceanGlow" r="60%">
+<stop offset="0%" stop-color="#86f2e4" stop-opacity="0.35"></stop>
+<stop offset="60%" stop-color="#006a61" stop-opacity="0.1"></stop>
+<stop offset="100%" stop-color="#001823" stop-opacity="0"></stop>
+</radialgradient>
+</defs>
+<rect fill="url(#oceanGlow)" height="100%" width="100%"></rect>
+</svg>
+<!-- Hero Content Container -->
+<div class="relative z-10 w-full max-w-[1720px] mx-auto px-margin-mobile md:px-gutter lg:px-margin pt-36 pb-20 flex flex-col items-center text-center">
+<!-- Eco Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container/20 backdrop-blur-md text-secondary-fixed shadow-sm mb-space-md animate-pulse">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">eco</span>
+<span class="font-label-md text-label-md tracking-widest uppercase">Ekowisata Berkelanjutan • Papua Barat Daya</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-hero text-headline-xl md:text-display-hero text-on-primary max-w-5xl tracking-tight mb-space-sm drop-shadow-md">
+        Selamat Datang di Raja Ampat <span class="inline-block hover:scale-110 transition-transform">🌊</span>
+</h1>
+<!-- Subtitle -->
+<p class="font-headline-lg text-headline-md md:text-headline-lg text-secondary-fixed-dim font-medium italic max-w-3xl mb-space-lg">
+        Surga Bahari Terakhir di Bumi
+      </p>
+<!-- Editorial Paragraph -->
+<p class="font-body-xl text-body-md md:text-body-xl text-surface-variant max-w-2xl mx-auto mb-space-xl leading-relaxed">
+        Menghanyutkan diri di antara ribuan labirin karst zamrud, melintasi perairan toska sejernih kaca kristal, dan menyentuh episentrum keanekaragaman hayati terumbu karang teragung di planet kita.
+      </p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md w-full max-w-md">
+<a class="w-full sm:w-auto px-space-lg py-space-md rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg shadow-lg hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-space-xs text-center" href="#panduan">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+          Jelajahi Panduan Lengkap
+        </a>
+<a class="w-full sm:w-auto px-space-lg py-space-md rounded-lg bg-surface-container-lowest/15 backdrop-blur-md text-on-primary font-label-lg text-label-lg shadow-md hover:bg-surface-container-lowest/30 transition-all duration-300 flex items-center justify-center gap-space-xs text-center" href="#regulasi">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+          Cek Regulasi &amp; Izin Masuk
+        </a>
+</div>
+<!-- Live Archipelago Metric Strip -->
+<div class="mt-space-xl grid grid-cols-2 md:grid-cols-4 gap-space-sm md:gap-space-md w-full max-w-4xl p-space-sm rounded-xl bg-surface-container-lowest/10 backdrop-blur-xl shadow-lg">
+<div class="p-space-sm flex flex-col items-center">
+<span class="font-caption text-caption text-secondary-fixed-dim uppercase tracking-wider">Visibilitas Air</span>
+<span class="font-headline-sm text-headline-sm text-on-primary font-semibold">25–35 Meter</span>
+<span class="font-caption text-caption text-surface-variant">Sangat Jernih</span>
+</div>
+<div class="p-space-sm flex flex-col items-center">
+<span class="font-caption text-caption text-secondary-fixed-dim uppercase tracking-wider">Suhu Rata-rata</span>
+<span class="font-headline-sm text-headline-sm text-on-primary font-semibold">28°–30° C</span>
+<span class="font-caption text-caption text-surface-variant">Optimal Menyelam</span>
+</div>
+<div class="p-space-sm flex flex-col items-center">
+<span class="font-caption text-caption text-secondary-fixed-dim uppercase tracking-wider">Zona Konservasi</span>
+<span class="font-headline-sm text-headline-sm text-on-primary font-semibold">4,6 Juta Ha</span>
+<span class="font-caption text-caption text-surface-variant">Kawasan Dilindungi</span>
+</div>
+<div class="p-space-sm flex flex-col items-center">
+<span class="font-caption text-caption text-secondary-fixed-dim uppercase tracking-wider">Status Patroli</span>
+<span class="font-headline-sm text-headline-sm text-secondary-fixed font-semibold flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-ping"></span> Aktif 24/7
+          </span>
+<span class="font-caption text-caption text-surface-variant">BLUD &amp; Polhut</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== BAGIAN 2 — TENTANG RAJA AMPAT ==================== -->
+<section class="w-full max-w-[1720px] mx-auto px-margin-mobile md:px-gutter lg:px-margin py-space-xl" id="panduan">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start mb-space-xl">
+<div class="lg:col-span-5">
+<span class="font-caption text-caption text-secondary tracking-widest uppercase block mb-space-xs">Prakata Kepulauan</span>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl text-primary font-medium tracking-tight mb-space-md">
+          Apa Itu Raja Ampat?
+        </h2>
+<div class="w-16 h-1 bg-secondary rounded-full mb-space-md"></div>
+</div>
+<div class="lg:col-span-7">
+<p class="font-body-xl text-body-xl text-on-surface-variant leading-relaxed mb-space-sm">
+          Terletak di Papua Barat Daya — keanekaragaman hayati laut terkaya di dunia. Ribuan pulau kecil di laut biru jernih, impian sejati pecinta alam &amp; penyelam dari seluruh penjuru bumi.
+        </p>
+<p class="font-body-md text-body-md text-on-surface-variant/80 leading-relaxed">
+          Nama "Raja Ampat" berakar dari mitos kuno masyarakat setempat mengenai seorang wanita yang menemukan tujuh telur magis; empat di antaranya menetas menjadi raja-raja yang memerintah empat pulau utama kepulauan ini: Waigeo, Batanta, Salawati, dan Misool.
+        </p>
+</div>
+</div>
+<!-- 4 Pilar Empat Raja (Interactive Bento Cards) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Waigeo -->
+<div class="group relative rounded-xl bg-surface-container-lowest p-space-lg shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col justify-between">
+<div class="mb-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center mb-space-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[24px]">forest</span>
+</div>
+<span class="font-caption text-caption text-secondary uppercase tracking-widest block mb-space-xs">Pulau Terbesar</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs font-semibold">Pulau Waigeo</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Pusat konservasi kepulauan terbesar dan habitat sakral bagi Cenderawasih Merah (<em class="italic">Paradisaea rubra</em>) yang memikat dunia di ranting fajar rimba perawan.
+          </p>
+</div>
+<div class="pt-space-md bg-surface-container-low/50 rounded-lg p-space-sm">
+<span class="font-caption text-caption text-primary font-semibold block">Daya Tarik Utama:</span>
+<span class="font-caption text-caption text-on-surface-variant">Teluk Mayalibit, Trekking Cenderawasih, Kota Waisai</span>
+</div>
+</div>
+<!-- Batanta -->
+<div class="group relative rounded-xl bg-surface-container-lowest p-space-lg shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col justify-between">
+<div class="mb-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center mb-space-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[24px]">waterfall_chart</span>
+</div>
+<span class="font-caption text-caption text-secondary uppercase tracking-widest block mb-space-xs">Lembah &amp; Tirta</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs font-semibold">Pulau Batanta</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Hutan hujan perawan lebat dengan topografi terjal alami, dihiasi aliran air terjun jernih nan sejuk yang mengalir langsung menyegarkan mata air pesisir.
+          </p>
+</div>
+<div class="pt-space-md bg-surface-container-low/50 rounded-lg p-space-sm">
+<span class="font-caption text-caption text-primary font-semibold block">Daya Tarik Utama:</span>
+<span class="font-caption text-caption text-on-surface-variant">Air Terjun Batanta, Hutan Lumut Hujan, Penyu Sisik</span>
+</div>
+</div>
+<!-- Salawati -->
+<div class="group relative rounded-xl bg-surface-container-lowest p-space-lg shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col justify-between">
+<div class="mb-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center mb-space-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[24px]">water_ec</span>
+</div>
+<span class="font-caption text-caption text-secondary uppercase tracking-widest block mb-space-xs">Kedamaian Bakau</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs font-semibold">Pulau Salawati</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Perairan tenang eksotis dengan kanopi bakau purba, labirin kanal pasang surut yang menjadi tempat pemijahan alami ribuan spesies ikan endemik.
+          </p>
+</div>
+<div class="pt-space-md bg-surface-container-low/50 rounded-lg p-space-sm">
+<span class="font-caption text-caption text-primary font-semibold block">Daya Tarik Utama:</span>
+<span class="font-caption text-caption text-on-surface-variant">Hutan Mangrove Raksasa, Ikan Pelangi, Flora Sagoo</span>
+</div>
+</div>
+<!-- Misool -->
+<div class="group relative rounded-xl bg-surface-container-lowest p-space-lg shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col justify-between">
+<div class="mb-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center mb-space-md group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[24px]">scuba_diving</span>
+</div>
+<span class="font-caption text-caption text-secondary uppercase tracking-widest block mb-space-xs">Mahakarya Karst</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-xs font-semibold">Pulau Misool</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Gugusan karst magis dengan terowongan gua laut misterius, suaka hiu karang terlindungi ketat, serta danau terisolasi ubur-ubur tanpa sengat.
+          </p>
+</div>
+<div class="pt-space-md bg-surface-container-low/50 rounded-lg p-space-sm">
+<span class="font-caption text-caption text-primary font-semibold block">Daya Tarik Utama:</span>
+<span class="font-caption text-caption text-on-surface-variant">Danau Ubur-ubur, Gua Keramat, Misool Marine Reserve</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== BAGIAN 3 — FAKTA UNIK ==================== -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="w-full max-w-[1720px] mx-auto px-margin-mobile md:px-gutter lg:px-margin">
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<span class="font-caption text-caption text-secondary uppercase tracking-widest">Kekayaan Segitiga Karang Dunia</span>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl text-primary font-medium mt-space-xs mb-space-sm">
+          Fakta Menakjubkan Raja Ampat
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Sebuah keajaiban ekologi laut yang tidak ada duanya, diakui para ilmuwan kelautan dunia sebagai benteng pertahanan ekosistem maritim masa depan.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Fact 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute -right-6 -bottom-6 w-32 h-32 bg-secondary-container/20 rounded-full blur-2xl group-hover:bg-secondary-container/40 transition-colors"></div>
+<div>
+<div class="w-14 h-14 rounded-full bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[28px]">bubble_chart</span>
+</div>
+<div class="font-display-hero text-headline-xl text-primary font-bold tracking-tight mb-space-xs">75%</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">Terumbu Karang Dunia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Rumah bagi lebih dari 550 spesies koral keras dunia — melampaui seluruh wilayah Karibia digabungkan, menjadikannya episentrum segitiga koral global.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<span class="inline-block px-space-sm py-space-xs rounded-full bg-secondary-fixed/40 text-on-secondary-fixed text-caption font-caption font-semibold">
+              Marine Biodiversity Center
+            </span>
+</div>
+</div>
+<!-- Fact 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute -right-6 -bottom-6 w-32 h-32 bg-secondary-container/20 rounded-full blur-2xl group-hover:bg-secondary-container/40 transition-colors"></div>
+<div>
+<div class="w-14 h-14 rounded-full bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[28px]">phishing</span>
+</div>
+<div class="font-display-hero text-headline-xl text-primary font-bold tracking-tight mb-space-xs">1.500+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">Spesies Ikan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Ribuan spesies ikan karang warna-warni, kawanan pari manta raksasa, hiu paus bersahabat, penyu lekang, dan dugong hidup tenteram dalam keharmonisan alam.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<span class="inline-block px-space-sm py-space-xs rounded-full bg-secondary-fixed/40 text-on-secondary-fixed text-caption font-caption font-semibold">
+              Kaya Spesies Endemik
+            </span>
+</div>
+</div>
+<!-- Fact 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute -right-6 -bottom-6 w-32 h-32 bg-secondary-container/20 rounded-full blur-2xl group-hover:bg-secondary-container/40 transition-colors"></div>
+<div>
+<div class="w-14 h-14 rounded-full bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[28px]">visibility</span>
+</div>
+<div class="font-display-hero text-headline-xl text-primary font-bold tracking-tight mb-space-xs">30m+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">Air Sangat Jernih</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Visibilitas spektakuler hingga kedalaman puluhan meter. Formasi taman karang dan gerombolan ikan barakuda terlihat transparan bahkan dari atas geladak perahu.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<span class="inline-block px-space-sm py-space-xs rounded-full bg-secondary-fixed/40 text-on-secondary-fixed text-caption font-caption font-semibold">
+              Kristal Murni Pasifik
+            </span>
+</div>
+</div>
+<!-- Fact 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute -right-6 -bottom-6 w-32 h-32 bg-secondary-container/20 rounded-full blur-2xl group-hover:bg-secondary-container/40 transition-colors"></div>
+<div>
+<div class="w-14 h-14 rounded-full bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[28px]">palette</span>
+</div>
+<div class="font-display-hero text-headline-xl text-primary font-bold tracking-tight mb-space-xs">7 Rona</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">Warna Gradasi Laut</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Paduan gradasi luar biasa mulai dari toska cerah, pirus lembut di pesisir pasir putih, hingga biru safir indigo pekat di jurang laut dalam.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs">
+<span class="inline-block px-space-sm py-space-xs rounded-full bg-secondary-fixed/40 text-on-secondary-fixed text-caption font-caption font-semibold">
+              Koleksi Spektrum Alam
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== BAGIAN 4 — TEMPAT WISATA ==================== -->
+<section class="w-full max-w-[1720px] mx-auto px-margin-mobile md:px-gutter lg:px-margin py-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div>
+<span class="font-caption text-caption text-secondary uppercase tracking-widest">Destinasi Terpilih</span>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl text-primary font-medium mt-space-xs">
+          Tempat Wisata Ikonik yang Wajib Dikunjungi
+        </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Jelajahi lanskap legendaris yang mendefinisikan kemegahan kepulauan karst Raja Ampat dengan panduan konservasi ketat.
+      </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Card 1: Piaynemo -->
+<div class="group rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+<!-- Visual Container -->
+<div class="relative h-72 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Breathtaking panoramic view of Piaynemo Raja Ampat limestone karst islands rising from vivid turquoise emerald lagoon water under soft golden morning sunlight with wooden walkway stairs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUGh_GJSTmHVWxmR_2XEb7Byhe5iHdnK6gVvFfscm4IG5GgE7kNlqbYFMIajr-2bM7kgC7QUIi6IBXCih8ybhkT-3yjjp--FO8zIhF8OUjdTuuK89UJA8HfyNlNi3I7g9UkZArGgaS_dW8IJcGP3WaY15NtYMn8wWSfXsklUFNpehQMNev_ML_d_224ROAbvrWkrTjllooF7zLZCCyHyj31mDn2h-8CCB26m2OwkPLmCHbkJPgJr3p"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded-full bg-secondary text-on-secondary font-label-md text-caption uppercase font-semibold shadow-sm">
+              Ikon Dunia
+            </span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm">
+<span class="px-space-sm py-space-xs rounded-lg bg-surface/85 backdrop-blur-md text-primary font-label-md text-caption font-medium shadow-sm">
+              320 Anak Tangga Ulin
+            </span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span class="font-label-md text-label-md font-semibold">Kepulauan Pam, Selat Dampier</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold mb-space-xs">
+              🌅 Piaynemo &amp; Teluk Bintang
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Ikon pemandangan pulau karang dengan tangga kayu ulin menuju gardu pandang puncak. Menyuguhkan panorama gugusan bukit karst di atas perairan toska dan formasi Teluk Bintang yang menawan.
+            </p>
+</div>
+<div class="pt-space-md bg-surface-container-low/40 rounded-lg p-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">hiking</span>
+<span class="font-caption text-caption text-on-surface">Tingkat: Ramah Pemula</span>
+</div>
+<span class="font-caption text-caption text-secondary font-semibold">Spot Foto Terbaik</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Pulau Wayag -->
+<div class="group rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+<!-- Visual Container -->
+<div class="relative h-72 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Dramatic aerial drone view of Wayag Island Raja Ampat conical karst peaks scattered across hyper clear sapphire water with baby blacktip reef sharks visible near a quiet white sandy beach" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3ROEk7n1187GNBeEYZbGn9hJdlkDHKc5EkFbCZoEVCmp69AzvrOoBRiqOyADogmZZaPFQMFejt7zmpPWtCRDp_GwAaXe3hsam7XqIuXl4zMEnTY4dJJMD1vvH6-OEGu3vJCnZBJ4020ULv0evMZUy5AxQLL0eHTK2G6FPny0YRmkDIWZdrVzL4e7Ig_3ZfHjGwYH1B7A3NHq2L15UsNYUYHsgFcAz-qifBOIQ7wNIBsTmhggZuYDP"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded-full bg-primary-container text-on-primary font-label-md text-caption uppercase font-semibold shadow-sm">
+              Zona Konservasi Ketat
+            </span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm">
+<span class="px-space-sm py-space-xs rounded-lg bg-surface/85 backdrop-blur-md text-primary font-label-md text-caption font-medium shadow-sm">
+              Utara Khatulistiwa
+            </span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span class="font-label-md text-label-md font-semibold">Waigeo Barat Kepulauan</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold mb-space-xs">
+              🏝️ Gugusan Pulau Wayag
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Pulau kerucut spektakuler di utara garis khatulistiwa. Memiliki laguna alami habitat hiu karang sirip hitam (<em class="italic">blacktip reef shark</em>) yang ramah berenang di pantai pasir putih tak berpenghuni.
+            </p>
+</div>
+<div class="pt-space-md bg-surface-container-low/40 rounded-lg p-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">kayaking</span>
+<span class="font-caption text-caption text-on-surface">Akses: Speedboat &amp; Pinisi</span>
+</div>
+<span class="font-caption text-caption text-secondary font-semibold">Laguna Hiu Jinak</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Pulau Kri -->
+<div class="group rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+<!-- Visual Container -->
+<div class="relative h-72 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Underwater scuba diving scene at Cape Kri Raja Ampat showing lush soft coral walls schooling barracuda giant manta rays swimming gracefully in crystal turquoise sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZnB-PvZ9pSmAO9wu-F4r8qnAL1Xog-QnhNqwgYXKjmqOiKrkHC5rBUfGGDJei-tkpagpt3CfJWmRALDmQH_rRmbqaG81gvoXROs8L7I6VylI0Fo2qTCbhPGippYNJT14UPR5BcJ852uOskKs94nbmPPuRPEnHsBZE-NloqXUygqoDXiDOKz6NXo045ThPYUlKnIGlf5JqEtQJ9o-YQzc_5kioIKgvmjSAT-neKVUfOlX0aQkboqnq"/>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded-full bg-secondary-container text-on-secondary-container font-label-md text-caption uppercase font-semibold shadow-sm">
+              Rekor Sains Dunia
+            </span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm">
+<span class="px-space-sm py-space-xs rounded-lg bg-surface/85 backdrop-blur-md text-primary font-label-md text-caption font-medium shadow-sm">
+              374 Spesies / 1 Dive
+            </span>
+</div>
+</div>
+<div class="p-space-lg flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span class="font-label-md text-label-md font-semibold">Selat Dampier Timur</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-semibold mb-space-xs">
+              🐠 Pulau Kri &amp; Cape Kri
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Titik penyelaman terbaik di muka bumi pemegang rekor dunia keanekaragaman spesies terbanyak dalam satu kali penyelaman oleh Dr. Gerry Allen di perairan Cape Kri.
+            </p>
+</div>
+<div class="pt-space-md bg-surface-container-low/40 rounded-lg p-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">scuba_diving</span>
+<span class="font-caption text-caption text-on-surface">Penyelaman Arus Kuat</span>
+</div>
+<span class="font-caption text-caption text-secondary font-semibold">Level: Lanjutan (AOWD)</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== BAGIAN 5 — KODE ETIK & PERATURAN ==================== -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="w-full max-w-[1720px] mx-auto px-margin-mobile md:px-gutter lg:px-margin">
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<span class="font-caption text-caption text-secondary uppercase tracking-widest">Prinsip Ekowisata Bertanggung Jawab</span>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl text-primary font-medium mt-space-xs mb-space-sm">
+          Kode Etik &amp; Peraturan Berkelanjutan
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Peraturan ini dibuat bukan untuk membatasi petualangan Anda, melainkan menjaga agar surga ini tetap hidup dan abadi bagi generasi mendatang.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Rule 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[24px]">scuba_diving</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">
+            🤿 Lindungi Terumbu Karang
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Jangan pernah menginjak, menduduki, merusak, atau mengambil terumbu karang hidup. Pastikan daya apung netral (<em class="italic">neutral buoyancy</em>) terkontrol dengan baik saat snorkeling maupun diving.
+          </p>
+</div>
+<!-- Rule 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[24px]">sanitizer</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">
+            🧴 Tabir Surya Ramah Karang
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Gunakan hanya tabir surya bersertifikasi <em class="italic">Reef-Safe</em> (bebas Oxybenzone &amp; Octinoxate). Disarankan berbasis mineral alami (Zinc Oxide non-nano) demi mencegah pemutihan koral.
+          </p>
+</div>
+<!-- Rule 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[24px]">delete</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">
+            🗑️ Bawa Pulang Sampahmu
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Raja Ampat adalah zona bebas sampah plastik sekali pakai. Bawa botol minum isi ulang (tumbler) sendiri dan wajib membawa seluruh sampah non-organik Anda kembali ke kota Sorong.
+          </p>
+</div>
+<!-- Rule 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[24px]">pets</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">
+            🐠 Jarak Aman Satwa Liar
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Amati satwa dari jarak aman minimal 3-5 meter. Jangan pernah mengejar, memotong jalur renang, menunggangi, atau menyentuh pari manta, penyu, hiu paus, dan lumba-lumba.
+          </p>
+</div>
+<!-- Rule 5 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[24px]">volunteer_activism</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">
+            🙏 Hormati Adat &amp; Sasi Laut
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Patuhi hukum adat kearifan lokal "Sasi Laut" — larangan tradisional mengambil hasil laut pada waktu tertentu demi regenerasi populasi. Hormati keputusan para tetua adat setempat.
+          </p>
+</div>
+<!-- Rule 6 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[24px]">camera_alt</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">
+            📸 Izin Memotret &amp; Kesopanan
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Selalu minta izin secara santun sebelum memotret masyarakat lokal atau situs makam keramat leluhur. Gunakan pakaian yang pantas dan sopan saat berkunjung ke kampung-kampung wisata.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== BAGIAN 6 — REGULASI & DOKUMEN ==================== -->
+<section class="w-full max-w-[1720px] mx-auto px-margin-mobile md:px-gutter lg:px-margin py-space-xl" id="regulasi">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg md:p-space-xl shadow-md">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Column: Title & Overview -->
+<div class="lg:col-span-5 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-secondary-container/30 text-on-secondary-container font-label-md text-label-md mb-space-sm">
+<span class="material-symbols-outlined text-[16px]">gavel</span>
+              Otoritas BLUD UPTD Papua Barat Daya
+            </div>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl text-primary font-medium tracking-tight mb-space-md">
+              Regulasi Kunjungan &amp; Persyaratan Dokumen Resmi
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+              Semua pendatang diwajibkan mematuhi tata tertib perizinan sebelum memasuki kawasan suaka alam perairan demi menjaga keberlangsungan ekosistem dan mendukung masyarakat adat.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-xl">
+<span class="font-caption text-caption text-secondary uppercase font-semibold tracking-wider block mb-1">Penting Diketahui</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+              Retribusi Kartu PIN TLP langsung dialokasikan untuk pembiayaan patroli polisi hutan, pelestarian terumbu karang, dan program pendidikan anak-anak pulau.
+            </p>
+</div>
+</div>
+<!-- Right Column: Interactive Checklist Box -->
+<div class="lg:col-span-7 space-y-space-sm">
+<!-- Item 1 -->
+<div class="flex items-start gap-space-md p-space-md rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-md font-semibold text-primary">Kartu Tarif Layanan Pemeliharaan Lingkungan (PIN TLP / BLUD)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Wajib dimiliki setiap wisatawan nusantara maupun mancanegara sebelum bertolak dari Sorong atau Waisai (berlaku 1 tahun penuh).
+              </p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex items-start gap-space-md p-space-md rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">assignment</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-md font-semibold text-primary">Formulir Pendaftaran Resmi &amp; Manifest Tamu</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Mengisi lembar identitas manifes pengunjung melalui dive resort, homestay resmi, atau operator pinisi terdaftar di dinas pariwisata.
+              </p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex items-start gap-space-md p-space-md rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">map</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-md font-semibold text-primary">Kepatuhan Batas Zonasi Maritim</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Memahami batas antara Zona Inti Larang Ambil (<em class="italic">No-Take Zone</em>), Zona Pemanfaatan Terbatas Pariwisata, dan Zona Adat Sasi.
+              </p>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="flex items-start gap-space-md p-space-md rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">flight</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-md font-semibold text-primary">Regulasi Penggunaan Drone &amp; Kamera Udara</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Penerbangan drone di atas kawasan suaka burung langka atau perkampungan adat wajib mengantongi izin resmi pengelola guna mencegah kepanikan satwa.
+              </p>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="flex items-start gap-space-md p-space-md rounded-lg bg-surface hover:bg-surface-container-low transition-colors">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-md font-semibold text-primary">Penyelaman Berdampingan Pemandu Bersertifikat HPI</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Seluruh aktivitas selam rekreasi wajib dipandu oleh divemaster atau pemandu lokal bersertifikat HPI (Himpunan Pramuwisata Indonesia) terdaftar.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== BAGIAN 7 — PENUTUP ==================== -->
+<section class="w-full max-w-[1720px] mx-auto px-margin-mobile md:px-gutter lg:px-margin pb-space-xl">
+<div class="relative rounded-xl overflow-hidden bg-primary-container text-on-primary py-space-xl px-space-lg md:px-space-xl text-center shadow-xl">
+<!-- Living Ocean Background Accent -->
+<div class="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-overlay" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAb08p7seWDZ_Vul5PUIjeTiykneJSXWJouuX3KwAibEJ-daaCmvl3EX0XvvlzhdKR4DYTcMXwQxC0kDuAB_UnErnFFCNdt8ekrfpC7alf70CAShuRg3GraDMxZiosPJBXO7AsSIngSEDPyYjfJWq3dCV7ubLVol9px78C2IH7yIAbUhw5AOT6GlP6mUhUHqqQWI_BCHotjCwz2hG5ApGAdjCzMBF-1mEF3qLbNDxN3wyZWxLcKSwo2');"></div>
+<!-- Ambient Glow Decorator -->
+<div class="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-secondary-container/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
+<span class="inline-block px-space-md py-space-xs rounded-full bg-surface-container-lowest/15 backdrop-blur-md text-secondary-fixed text-caption font-caption tracking-widest uppercase mb-space-md">
+          Pesan Lestari Nusantara
+        </span>
+<h2 class="font-display-hero text-headline-lg md:text-headline-xl text-on-primary font-medium mb-space-md">
+          🌿 Mari Bersama Menjaga Kelestarian Raja Ampat 🌿
+        </h2>
+<p class="font-body-xl text-body-md md:text-body-xl text-surface-variant max-w-3xl leading-relaxed mb-space-md">
+          "Keindahan ini bukan milik kita semata — ini warisan tak ternilai untuk anak cucu nanti. Datanglah dengan rasa hormat, pulang dengan kenangan indah, dan tinggalkan jejak yang baik saja."
+        </p>
+<p class="font-headline-sm text-headline-sm text-secondary-fixed font-semibold mb-space-xl">
+          Terima Kasih Sudah Berkunjung! 💙
+        </p>
+<!-- Final Action CTA Buttons -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md w-full max-w-md">
+<button class="w-full sm:w-auto px-space-lg py-space-md rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg shadow-lg hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-space-xs text-center cursor-pointer" onclick="alert('Terima kasih atas komitmen Anda! Ikrar wisatawan bertanggung jawab telah tercatat.')" type="button">
+<span class="material-symbols-outlined text-[20px]">handshake</span>
+            Daftar Sebagai Wisatawan Bertanggung Jawab
+          </button>
+<button class="w-full sm:w-auto px-space-lg py-space-md rounded-lg bg-surface-container-lowest/15 backdrop-blur-md text-on-primary font-label-lg text-label-lg shadow-md hover:bg-surface-container-lowest/30 transition-all duration-300 flex items-center justify-center gap-space-xs text-center cursor-pointer" onclick="alert('Mengarahkan ke Portal Tiket &amp; PIN BLUD UPTD Raja Ampat resmi.')" type="button">
+<span class="material-symbols-outlined text-[20px]">confirmation_number</span>
+            Akses Portal Tiket Online
+          </button>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="w-full max-w-[1720px] mx-auto px-margin-mobile md:px-gutter lg:px-margin pt-space-xl pb-space-lg"><div class="bg-surface-container-lowest p-space-lg lg:p-space-xl rounded-xl mb-space-xl shadow-[0_4px_20px_-2px_rgba(6,46,61,0.04)]"><div class="max-w-3xl"><div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-secondary-container/40 text-on-secondary-container font-label-md text-label-md mb-space-sm"><span class="material-symbols-outlined text-[16px]">eco</span>Komitmen Ekologis Bersama</div><h3 class="font-headline-md text-headline-md text-primary font-semibold mb-space-xs">Menjaga Jantung Segitiga Terumbu Karang Dunia</h3><p class="font-body-md text-body-md text-on-surface-variant">Setiap langkah dan penyelaman di Raja Ampat diatur dengan regulasi konservasi ketat demi kelestarian 75% spesies karang dunia dan lebih dari 1.500 jenis biota laut. Mari bepergian dengan penuh tanggung jawab dan rasa takzim.</p></div></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col"><div class="flex items-center gap-space-xs mb-space-sm"><img alt="Raja Ampat Tourism Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wscj9EO64EJyQpBmkfUejEmDxf_RDVIOFaiBuT5Ca53_ofjAmN3jLWKwqwF2k_0muthvnADDy08RFVBy_XdevkAPw_E1AZRrw2DhZkAJJ8PDtW72VrNFww-n6IgaNK3QgptRrNtq7QMnxj4eJHyJYCWZaiV8pOpysPPNDFtFh-y9XOatSKzGA7MZdIPJkkSH8g-XjoKbTfai-3mgZw20fA6nsapF68t2XRMzYCOO2RLB9yA3oRtzj1d7E"/><span class="font-headline-sm text-headline-sm text-primary font-semibold">Raja Ampat</span></div><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Portal Informasi Resmi &amp; Pelayanan Wisata Bahari Berkelanjutan Kabupaten Raja Ampat, Papua Barat Daya.</p><div class="flex items-center gap-space-sm"><a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">public</span></a><a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-secondary hover:text-on-secondary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">play_circle</span></a></div></div><div class="flex flex-col"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider mb-space-md">Tautan Penting</h4><ul class="space-y-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="destinasi-populer" href="#">Kepulauan Wayag &amp; Piaynemo</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="destinasi-populer" href="#">Selat Dampier &amp; Misool</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="liveaboard" href="#">Charter Kapal Pinisi &amp; Yacht</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="panduan-konservasi" href="#">Regulasi Penyelaman &amp; Drone</a></li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface"><a data-path="tentang-kami" href="#">Pusat Pengaduan Wisatawan</a></li></ul></div><div class="flex flex-col"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider mb-space-md">Kartu Jasa Lingkungan (PIN TLP)</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Semua pengunjung wajib memiliki Tarif Layanan Pemeliharaan Lingkungan (PIN BLUD UPTD) sebelum memasuki kawasan konservasi perairan.</p><div class="bg-surface-container p-space-sm rounded-lg"><span class="font-label-md text-label-md text-secondary block font-semibold">Kantor Pengelola BLUD UPTD:</span><span class="font-body-sm text-body-sm text-on-surface block">Waisai, Pulau Waigeo, Raja Ampat</span><span class="font-caption text-caption text-on-surface-variant block mt-space-xs">Validitas PIN: 12 Bulan Kalender</span></div></div><div class="flex flex-col"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider mb-space-md">Kontak Darurat &amp; SAR</h4><ul class="space-y-space-xs"><li class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface"><span class="material-symbols-outlined text-secondary text-[18px]">call</span><span>Hotline SAR Sorong: 115 / (0951) 321115</span></li><li class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface"><span class="material-symbols-outlined text-secondary text-[18px]">medical_services</span><span>RSUD Raja Ampat: (0951) 3173111</span></li><li class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface"><span class="material-symbols-outlined text-secondary text-[18px]">support_agent</span><span>Dinas Pariwisata: info@rajaampattourism.id</span></li></ul><div class="mt-space-md"><span class="inline-flex items-center gap-space-xs text-caption font-caption text-on-surface-variant"><span class="material-symbols-outlined text-[14px] text-secondary">shield</span>Sistem Respon Cepat Maritim Aktif 24/7</span></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Dinas Pariwisata &amp; Kebudayaan Kabupaten Raja Ampat. Seluruh hak cipta dilindungi.</p><div class="flex items-center gap-space-md"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface" href="#">Kebijakan Privasi</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface" href="#">Pedoman Ekowisata</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface" href="#">Syarat &amp; Ketentuan</a></div></div></div></footer></body></html>
